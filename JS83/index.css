@@ -1,0 +1,63 @@
+.main .balls {
+    width: 450px;
+    padding: 30px 10px 10px;
+    margin-bottom: 20px;
+    position: relative;
+    border-radius: 4px;
+}
+
+.main .balls:after {
+    content: '\20';
+    clear: both;
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
+
+.main .balls span {
+    position: absolute;
+    left: 12px;
+    top: 5px;
+    font-size: 13px;
+}
+
+.main b {
+    float: left;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    background: #FFF;
+    border: 1px solid;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.main .red .active {
+    background: #f56c6c;
+    color: #FFF;
+}
+
+.main .blue .active {
+    background: #3a8ee6;
+    color: #FFF;
+}
+
+.main .red {
+    background: #feeff0;
+}
+
+.main .red b {
+    border-color: #f56c6c;
+}
+
+.main .blue {
+    background: #ecf8ff;
+}
+
+.main .blue b {
+    border-color: #3a8ee6;
+}
