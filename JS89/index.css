@@ -1,0 +1,30 @@
+.tag-input{
+    position: relative;
+    border: 1px solid #cccccc;
+    padding: 0 5px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.js-input{
+    width: 450px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 16px;
+    padding: 0;
+    margin: 5px 0;
+    outline: none;
+    border: none;
+    width: 6.5em;
+    height: 24px;
+    line-height: 24px;
+}
+.tag{
+    padding: 0 10px;
+    margin: 5px 5px 5px 0;
+    background: #25bb9b;
+    color: #ffffff;
+    height: 24px;
+    line-height: 24px;
+    border-radius: 12px;
+    font-size: 13px;
+}
